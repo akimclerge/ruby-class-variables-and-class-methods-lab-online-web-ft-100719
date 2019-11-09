@@ -1,0 +1,18 @@
+class Song 
+  attr_accessor :song, :count, :genre_count, :artist_count
+  
+  def initialize(song)
+    @song = song
+  end
+  def song
+    @song
+  end
+  def genre_count
+    @@genre_count.count 
+  end 
+end 
+
+song.count
+song.artists
+song.genre_count 
+song.artist_count
