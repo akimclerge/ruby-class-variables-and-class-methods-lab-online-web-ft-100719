@@ -8,7 +8,7 @@ class Song
     @Song
   end
   def genre_count
-    @@genre_count.count 
+    @@Genre_count.count 
   end 
 end 
 
